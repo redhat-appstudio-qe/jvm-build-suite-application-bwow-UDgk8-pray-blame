@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-tcovjo
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/redhat-appstudio-qe/jvm-build-oepb-tenant/jvm-build-suite-application-bwow/jvm-build-suite-component-tcovjo@sha256:e0c0217dbea9b8d524056cad92b20c60da4cf933e685850b3622116b1dcfa365
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
