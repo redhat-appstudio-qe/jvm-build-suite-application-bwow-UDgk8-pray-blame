@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-tcovjo
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/jvm-build-oepb-tenant/jvm-build-suite-application-bwow/jvm-build-suite-component-tcovjo@sha256:e0c0217dbea9b8d524056cad92b20c60da4cf933e685850b3622116b1dcfa365
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
